@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "html-to-md"
+version = "0.1.0"
+description = ""
+authors = ["yutak03 <yutak03.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+html2text = "^2024.2.26"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
